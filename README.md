@@ -1,7 +1,7 @@
 # Codespace para probar llms locales y en la nube
 
 
-1- Para ejecutar un codespace usando este repositorio seleccione el botón Open Codespace
+1- Para ejecutar un codespace usando este repositorio debe haber ingresado a GitHub con su cuenta Pro. Seleccione el botón Open Codespace
 
 Seleccione el repositorio el Boton "Code""
 
