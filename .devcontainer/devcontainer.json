@@ -2,7 +2,7 @@
     "name": "Python Development Container with ollama and Jupyter",
     "image": "mcr.microsoft.com/devcontainers/python:3.12-bullseye",
     "hostRequirements": {
-       "memory": "16gb"
+       "memory": "8gb"
     },
     "features": {
        "ghcr.io/devcontainers/features/docker-from-docker:1": {},
@@ -14,8 +14,7 @@
         "vscode": {
             "settings": {
                 "python.terminal.activateEnvInCurrentTerminal": true,
-                "python.defaultInterpreterPath": ".venv/bin/python",
-                "workbench.startupEditor": "readme", 
+                "python.defaultInterpreterPath": ".venv/bin/python", 
                 // Open Markdown files in preview mode by default
                 "workbench.editorAssociations": {
                     "*.md": "vscode.markdown.preview.editor"
