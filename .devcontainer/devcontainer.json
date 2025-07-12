@@ -19,7 +19,6 @@
             "settings": {
                 "python.terminal.activateEnvInCurrentTerminal": true,
                 "python.defaultInterpreterPath": ".venv/bin/python", 
-                // Open Markdown files in preview mode by default
                 "workbench.editorAssociations": {
                     "*.md": "vscode.markdown.preview.editor"
                 }
@@ -33,6 +32,5 @@
     
     "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt",
 	"postStartCommand": "pip3 install --user -r requirements.txt"
-   // "postCreateCommand": "bash -i scripts/pysetup.sh py_env && bash -i scripts/startOllama.sh",
-   // "postStartCommand" : "nohup bash -c 'ollama serve &'"
+
 }
