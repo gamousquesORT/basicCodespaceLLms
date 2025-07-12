@@ -3,6 +3,10 @@
     "image": "mcr.microsoft.com/devcontainers/python:3.12-bullseye",
     "hostRequirements": {
        "memory": "8gb"
+       // ideal config 
+       // "memory": "16gb" or better 32gb
+       //       "cpus": 4,
+       //"storage": "32gb"
     },
     "features": {
        "ghcr.io/devcontainers/features/docker-from-docker:1": {},

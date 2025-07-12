@@ -1,15 +1,34 @@
 # Codespace para probar llms locales y en la nube
 
-**1. Para ejecutar un codespace usando este repositorio seleccione el botón Open Codespace**
 
-Seleccione acá [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/IngSoft-FacultyHub-2024-2/basicCodespaceLLms)
+1- Para ejecutar un codespace usando este repositorio seleccione el botón Open Codespace
 
-**2.Luego seleccione la opción de crear un nuevo codespace.**
+Seleccione el repositorio el Boton "Code""
 
-**3. Una vez creado el codespace, abra la terminal de vscode y ejecute el comnando ollama --verision para verificar que la instalación de ollama se haya realizado correctamente.**
 
-**4. descargar el modelo llama3.2:1b con el comando ollama pull llama3.2:1b**
+![Botón Code](imagenes/Code_btn.png)
 
-**5. para verificar qué modelos estan descargados, puede usar el comando ollama list**
+Seleccione la solapa Codespaces y luego el botón verde que dice
 
-**6. Una vez descargado el modelo, puede probarlo con el comando ollama run llama3.2:1b --prompt "cual es la capital de Uruguay?"**
+ **"Create Codespace on Main"**.  
+
+![Create Codespaces](imagenes/CreateCodespace.png)
+
+Una vez seleccionado, se abrirá una nueva pestaña del navegador y se una version web de Visual Studio Code. el proceso demora varios minutos debido a que carga Ollama para correct Small Language models (SML) localmente.
+Este Codespace está configurado con la VM máxima que permite la organización academica. Uds puede clonar este repositorio a su cuenta GitHub pro y cambiar a los valores ideales para ejecutar modelos locales mas grandes
+
+[Configuración devcontainer](.devcontainer/devcontainer.json)
+
+
+2- Una vez creado el Codespace, abra la terminal de vscode y ejecute el comnando **ollama --verision** para verificar que la instalación de ollama se haya realizado correctamente.**
+
+3. Descargar el modelo llama3.2:1b u otro que figure en la lista de modelos <https://ollama.com/search>  con el comando **ollama pull llama3.2:1b**
+
+4- Para verificar qué modelos están bien descargados, puede usar el comando **ollama list**
+
+5. Una vez descargado el modelo, puede probarlo con el comando **ollama run llama3.2:1b**
+
+6- Para probar en funcionamiento en la terminal ingregre el prompt **"cual es la capital de Uruguay?"**
+
+7. Bajo la carpeta notebooks se encuentra el archivo **ollama.ipynb** que contiene ejemplos de uso de los modelos en Python. Cuando comience a ejecutar la primera celda se le pedirá que elija el kernel o interprete de python que desea usar. Seleccione en la barra de comandos arriba el que esta en **.venev/bin.....**
+
