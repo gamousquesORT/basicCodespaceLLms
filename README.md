@@ -30,5 +30,5 @@ Este Codespace está configurado con la VM máxima que permite la organización 
 
 6- Para probar en funcionamiento en la terminal ingregre el prompt **"cual es la capital de Uruguay?"**
 
-7. Bajo la carpeta notebooks se encuentra el archivo **ollama.ipynb** que contiene ejemplos de uso de los modelos en Python. Cuando comience a ejecutar la primera celda se le pedirá que elija el kernel o interprete de python que desea usar. Seleccione en la barra de comandos arriba el que esta en **.venev/bin.....**
+7- Bajo la carpeta **notebooks** se encuentra el archivo **ollama.ipynb** que contiene ejemplos de uso de los modelos en Python con la API de OpenAI. Cuando comience a ejecutar la primera celda se le pedirá que elija el kernel o interprete de python que desea usar. Seleccione en la barra de comandos arriba el que esta en **.venev/bin.....**
 
