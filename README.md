@@ -26,7 +26,7 @@ Este Codespace está configurado con la VM máxima que permite la organización 
 
 4- Para verificar qué modelos están bien descargados, puede usar el comando **ollama list**
 
-5. Una vez descargado el modelo, puede probarlo con el comando **ollama run llama3.2:1b**
+5- Una vez descargado el modelo, puede probarlo con el comando **ollama run llama3.2:1b**
 
 6- Para probar en funcionamiento en la terminal ingregre el prompt **"cual es la capital de Uruguay?"**
 
