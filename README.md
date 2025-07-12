@@ -14,7 +14,7 @@ Seleccione la solapa Codespaces y luego el botón verde que dice
 
 ![Create Codespaces](imagenes/CreateCodespace.png)
 
-Una vez seleccionado, se abrirá una nueva pestaña del navegador y se una version web de Visual Studio Code. el proceso demora varios minutos debido a que carga Ollama para correct Small Language models (SML) localmente.
+Una vez seleccionado, se abrirá una nueva pestaña del navegador y una version web de Visual Studio Code. El proceso demora varios minutos debido a que carga Ollama para correct Small Language models (SML) localmente.
 Este Codespace está configurado con la VM máxima que permite la organización academica. Uds puede clonar este repositorio a su cuenta GitHub pro y cambiar a los valores ideales para ejecutar modelos locales mas grandes
 
 [Configuración devcontainer](.devcontainer/devcontainer.json)
