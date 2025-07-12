@@ -22,7 +22,7 @@ Este Codespace está configurado con la VM máxima que permite la organización 
 
 2- Una vez creado el Codespace, abra la terminal de vscode y ejecute el comnando **ollama --verision** para verificar que la instalación de ollama se haya realizado correctamente.**
 
-3. Descargar el modelo llama3.2:1b u otro que figure en la lista de modelos <https://ollama.com/search>  con el comando **ollama pull llama3.2:1b**
+3- Descargar el modelo llama3.2:1b u otro que figure en la lista de modelos <https://ollama.com/search>  con el comando **ollama pull llama3.2:1b**
 
 4- Para verificar qué modelos están bien descargados, puede usar el comando **ollama list**
 
